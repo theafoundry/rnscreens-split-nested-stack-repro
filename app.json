@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "SplitRepro",
+    "slug": "split-repro",
+    "scheme": "splitrepro",
+    "version": "1.0.0",
+    "orientation": "default",
+    "ios": {
+      "bundleIdentifier": "dev.repro.splitview",
+      "supportsTablet": true
+    },
+    "plugins": ["expo-router", "./plugins/with-scene-delegate.js"]
+  }
+}
